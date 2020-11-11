@@ -1,0 +1,20 @@
+Instruccions:
+
+1. git clone https://github.com/dacomo2021daw2/prjava02.git
+5. git	ls-tree	-r	main
+7.  git remote add origin https://github.com/sealja2021daw2/prjava02.git 
+git branch -M main 
+git push -u origin main
+
+10b. git merge branca00 main
+12. git push -u origin main
+14a.git push -u origin branca01
+
+Respostes:
+6. No, perqué en la branca main encara no s'ha fusionat amb branca00, per lo que s'hagi treballat amb branca00 no es podra veure estant a main.
+7. Si, perque la branca branca00 es ón hem modificat, afegit, i fet el commit al diposit local, per lo que es pot veure.
+12c. Perqué hem especificat que en el push sigui de la branca main.
+14c. Esta a un commit de main.
+
+Al inici del tot quans ens demana executar el Prjava02.java hi havia un problema perquè hi han dues "ç", i vaig tindra que canviar per "c" al fitxer Prjava02.java(en windows), 
+a llavors vaig afegir tant el .gitignore com el Prjava02.java, per aixo apareix que ha hagut alguna modificiacio del fitxer Prjava02.java en la versio 1.0.1.
