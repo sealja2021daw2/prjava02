@@ -1,10 +1,13 @@
 Instruccions:
 
-1. git clone https://github.com/dacomo2021daw2/prjava02.git
-5. git	ls-tree	-r	main
-7.  git remote add origin https://github.com/sealja2021daw2/prjava02.git 
-git branch -M main 
-git push -u origin main
+1. git branch branca00
+git checkout branca00
+git status
+
+5. git	checkout main
+git log main
+
+7.  git checkout branca00
 
 10b. git merge branca00 main
 12. git push -u origin main
